@@ -102,12 +102,16 @@
 }
 .desc_hebergement p {
     margin-top: 3%;
-    margin-bottom: 3%;
+    margin: bottom 1%;
+    font-family: 'Raleway';
+    color: #949191;
+    
 }
 .fb {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 .populaire {
     flex: 1;
@@ -119,12 +123,12 @@
     padding-left: 1%;
     padding-right: 1%;
 
-
 }
 .populaire1 {
     width: 35%;
     height: 160px;
     padding-left: 1%;
+
 }
 .populaire1 img {
     width: 100%;
@@ -138,6 +142,7 @@
     width: 35%;
     height: 160px;
     padding-left: 1%;
+
 }
 .populaire2 img {
     width: 100%;
@@ -151,6 +156,7 @@
     width: 35%;
     height: 160px;
     padding-left: 1%;
+
 }
 .populaire3 img {
     width: 100%;
@@ -168,14 +174,23 @@
     padding: 1% 0 1% 0;
     border-radius: 20px;
     margin-bottom: 20px;
+    margin-top: 10px;
+
 }
 .les_populaires:hover {
     cursor: pointer;
     transform: scale(1.2);
+
 }
 .desc_populaires {
     width: 70%;
     padding-left: 5%;
+
+}
+.desc_populaires p {
+    margin-top: 10px;
+    font-family: 'Raleway';
+    color: #949191;
 }
 .fca {
     display: flex;
@@ -183,9 +198,15 @@
     justify-content: space-around;
 
 }
+.etoiles {
+    margin-bottom: 3%;
+
+}
 .colorbleu {
     color: #0065fc;
+
 }
 .colorgris {
     color: #e1e0e0;
+
 }
