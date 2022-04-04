@@ -474,12 +474,13 @@ footer{
 }
 .linkfooter{
     width: 25%;
+    margin-bottom: 1%;
     margin-left: 3%;
-    margin-top: 1%;
     text-decoration: none;
     color: black;
 }
 .linkfooter1{
+    margin-bottom: 1%;
     margin-top: 3%;
     width: 25%;
     margin-left: 3%;
@@ -488,4 +489,5 @@ footer{
 }
 h5{
     font-weight: 250;
+    margin-top:  0%;
 }
