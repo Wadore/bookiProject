@@ -15,9 +15,15 @@
     height: 10%;
     margin-top: 3%;  
     font-weight: bold; 
+    color: black;
+    text-decoration: none;
+}
+.header2 a{
+    color: black;
+    text-decoration: none;
 }
 
-.header2 p:hover {
+.header2 a:hover {
     color:#0065FC;
 }
 
@@ -32,7 +38,7 @@
     width: 130px;
     height: 6px;
     top: 0;
-    right: 22%;
+    right: 15.8%;
 }
 
 #act:hover ~ .activités  {
@@ -46,7 +52,11 @@
     width: 80px;
     height: 6px;
     top: 0;
-    right: 10%;
+    right: 5.5%;
+}
+.titre p {
+    font-weight: 300;
+    margin-top: 0.5%;
 }
 
 .recherche {
@@ -58,6 +68,9 @@
     text-align: center;
     border: 1px solid rgb(219, 218, 218);
     margin-left: 2%;
+}
+.recherche input {
+    font-weight: bold;
 }
 
 .recherche i { 
@@ -96,6 +109,7 @@
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     text-align: center;
+    font-weight: bolder;
 }
 
 .filtres {
@@ -107,6 +121,10 @@
     margin-left: -4%;
     text-align: center;
 }
+.filtres a {
+    text-decoration: none;
+    color: black;
+}
 
 .filtres i {
     color:#0065FC;
@@ -114,16 +132,28 @@
     padding: 12px;
     background-color: #e3f2ff;
     margin-right:10%;
-    margin-left: -2px
+    margin-left: -6px;
+}
+.filtres a:hover {
+    background-color:#0065FC;
+
 }
 
-.icone {
+.filtres a {
     display:flex;
     align-items:center;
     border: 2px solid rgb(219, 218, 218);
     border-radius: 30px;
     width: 15%;
     height: 38px;
+    text-align: center;
+    font-size: 16px;
+}
+.icone {
+    display:flex;
+    align-items:center;
+    border-radius: 30px;
+    width: 100%;
     text-align: center;
     font-size: 16px;
 }
@@ -153,6 +183,7 @@
 }
 .info p {
     margin-top: 1%;
+    font-weight: 300;
 }
 /*FIN DU HEADER*/
 
@@ -188,14 +219,11 @@
     background-color: white;
     border-radius: 20px;
     padding: 0.5%;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%)
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
 }
 .les_hebergements:hover {
     cursor: pointer;
     transform: scale(1.05);
-}
-.hebergement1 {
-    box-shadow: 100% black;
 }
 .hebergement1 img {
     width: 100%;
@@ -255,21 +283,21 @@
 }
 .desc_hebergement {
     width: 100%;
-    margin-left: 5%;
+    margin-left: 15%;
+    text-decoration: none;
+    color: black;
 
 }
 .desc_hebergement h3 {
     margin: 0;
     margin-top: 3%;
-
-
+    margin-left: 5%;
 }
 .desc_hebergement p {
     margin-top: 3%;
-    margin: bottom 1%;
     font-family: 'Raleway';
     color: #949191;
-    
+    margin-left: 5%;   
 }
 .fb {
     display: flex;
@@ -339,7 +367,8 @@
     border-radius: 20px;
     margin-bottom: 20px;
     margin-top: 10px;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%)
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    
 
 }
 .les_populaires:hover {
@@ -350,6 +379,8 @@
 .desc_populaires {
     width: 70%;
     padding-left: 5%;
+    text-decoration: none;
+    color: black;
 
 }
 .desc_populaires p {
@@ -365,6 +396,7 @@
 }
 .etoiles {
     margin-bottom: 3%;
+    margin-left: 5%;
 
 }
 .colorbleu {
@@ -375,7 +407,7 @@
     color: #e1e0e0;
 
 }
-article {
+nav {
     display: flex;
     width: 100%;
     height: 500px;
@@ -413,6 +445,8 @@ p {
     width: 100%;
     height: 30px;
     border-radius: 30px;
+    color: black;
+    text-decoration: none;
 }
 h1{
     margin-left: 1.3%;
@@ -425,6 +459,7 @@ h1{
     display: flex;
     flex-wrap: wrap;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    text-decoration: none;
 }
 .imgp1{
     text-align: center;
@@ -434,6 +469,7 @@ h1{
     display: flex;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     border-radius: 30px;
+    text-decoration: none;
 }
 .imgp2{
     text-align: center;
@@ -443,6 +479,7 @@ h1{
     display: flex;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     border-radius: 30px;
+    text-decoration: none;
 }
 .imgp:hover {
     cursor: pointer;
