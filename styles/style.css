@@ -6,14 +6,14 @@
 }
 .logo{
     margin-left: 2%;
+    height: 90px;
 }
 
 .header2 {
     display: flex;
     justify-content:space-evenly;
     width: 30%;
-    height: 10%;
-    margin-top: 3%;  
+    height: 100%;  
     font-weight: bold; 
     color: black;
     text-decoration: none;
@@ -21,39 +21,19 @@
 .header2 a{
     color: black;
     text-decoration: none;
+    width: 50%;
+    height: 90px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header2 a:hover {
     color:#0065FC;
+    border-top: 3px solid #0065FC;
 }
 
-#héb:hover ~ .hébergements  {
-    display:block;
-}
-
-.hébergements {
-    position: absolute;
-    display: none;
-    background-color: #0065FC;
-    width: 130px;
-    height: 6px;
-    top: 0;
-    right: 15.8%;
-}
-
-#act:hover ~ .activités  {
-    display:block;
-
-}
-.activités {
-    position: absolute;
-    display: none;
-    background-color: #0065FC;
-    width: 80px;
-    height: 6px;
-    top: 0;
-    right: 5.5%;
-}
 .titre p {
     font-weight: 300;
     margin-top: 0.5%;
@@ -303,6 +283,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 8px;
+    margin-bottom: 10px;
 
 }
 .populaire {
@@ -507,7 +489,18 @@ h1{
 footer{
     background-color:#F2F2F2 ;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.apropos {
+    width: 30%;
+    margin-bottom: 40px;
+}
+.noshebergement {
+    width: 30%;
+}
+.assitance {
+    width: 30%;
 }
 .linkfooter{
     width: 25%;
@@ -527,4 +520,176 @@ footer{
 h5{
     font-weight: 250;
     margin-top:  0%;
+}
+@media(max-width:768px){
+    html, body { 
+        width: 100%;
+    }
+    .logo {
+        width: auto;
+        height: 60px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .header { 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 20px ;
+    }
+    .header2 {
+        width: 100%;
+        height: 50px;
+        margin-top: 10px;
+    }
+    .header2 a {
+        margin: 0;
+        border-bottom:1px solid #949191;
+        height: 50px;
+    }
+    .header2 a:hover { 
+        border-top: 0;
+        border-bottom: 3px solid #0065FC;
+    }
+    .titre{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .titre h2, .titre p {
+        width: 90%;
+    }
+    .recherche {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        border: 0;
+        margin: 0%;
+    }
+    #blanc {
+        height: 50px;
+        width: 61px;
+    }
+    .recherche i {
+        height: 50px;
+        
+    }
+    .filtres{
+        display: flex;
+        margin: 0%;
+        width: 100%;
+        height: 500px;
+    }
+    .icone {
+        width: 30%;
+        height: 50px;
+    }
+
+
+    .selection{
+        flex-direction: column;
+        height: auto;
+    }
+    .populaire {
+        order: 1;
+        border-radius: 0;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .fca {
+        align-items: center;
+    }
+    .les_populaires {
+        width: 95%;
+    }
+    .hebergement{
+        padding: 0;
+        order: 2;
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin: 0;
+        background-color: white;
+
+    }
+    .hebergement h2 {
+        margin-left: 20px ;
+        margin-bottom: 30px;
+    }
+    .hebergement p {
+        margin-left: 20px;
+        width: auto;
+    }
+    .fcb {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .les_hebergements{
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .selection {
+        width: 100%;
+    }
+    .selection2 h1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-left: 20px;
+    }
+    
+    .selection2 nav {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .photo{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .imgp {
+        width: 90%;
+    }
+.photo1{ width: 95%;}
+
+    .photo a {
+        width: 100%;
+        height: 253px;
+        margin-bottom: 20px;
+    }
+    .imagepetite {
+        width: 95%;
+        height: auto;
+        display: block;
+    }
+
+
+    footer {
+        flex-direction: column;
+    }
+    .apropos {
+        width: 90%;
+        margin-left: 30px;
+    }
+    .noshebergement {
+        width: 90%;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    .assitance {
+        width: 90%;
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
+    
+
 }
